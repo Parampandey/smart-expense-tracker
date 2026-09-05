@@ -11,7 +11,7 @@ def add_expense():
     amount = float(input("Enter amount: "))
     description = input("Enter description: ")
 
-    with open(FILE_NAME, "a", newline="") as file:
+    with open(FILE_NAME, "a", newline="") as file :
         writer = csv.writer(file)
         writer.writerow([date, category, amount, description])
 
