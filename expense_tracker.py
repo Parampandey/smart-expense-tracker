@@ -6,7 +6,7 @@ FILE_NAME = "expenses.csv"
 
 
 def add_expense():
-    date = input("Enter date (YYYY-MM-DD): ")
+    date = input("Enter date (YYYY-MM-DD): " )
     category = input("Enter category: ")
     amount = float(input("Enter amount: "))
     description = input("Enter description: ")
